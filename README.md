@@ -23,16 +23,16 @@ const codes = [
 
 function init() {
   function onKeyPress(e){
-   if(onArrowUp){
-     if(onArrowUp){
-       if(onArrowDown){
-         if(onArrowDown){
-           if(onArrowLeft){
-             if(onArrowRight){
-               if(onArrowLeft){
-                 if(onArrowRight){
-                   if(onKeyB){
-                     if(onKeyA){
+   if(onArrowUp(e)){
+     if(onArrowUp(e)){
+       if(onArrowDown(e)){
+         if(onArrowDown(e)){
+           if(onArrowLeft(e)){
+             if(onArrowRight(e)){
+               if(onArrowLeft(e)){
+                 if(onArrowRight(e)){
+                   if(onKeyB(e)){
+                     if(onKeyA(e)){
                        alert("Hurray!");
                      }
                    }

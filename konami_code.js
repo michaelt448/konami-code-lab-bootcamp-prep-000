@@ -16,8 +16,7 @@ const codes = [
 function init() {
   let index = 0;
   const key = e.key();
-  function triggerKey(e){
-   if (key === codes[index]){
+  if (key === codes[index]){
      index++;
      if (index === codes.length){
        alert("Hurray!")
@@ -27,5 +26,4 @@ function init() {
    else{
      index = 0;
    }
-  }
 }
